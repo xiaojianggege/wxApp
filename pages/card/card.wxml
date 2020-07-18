@@ -1,2 +1,159 @@
 <!--pages/card/card.wxml-->
-<text>pages/card/card.wxml</text>
+<view class="card">
+  <scroll-view scroll-y style="width: 100%;" >
+    <view class="card-wrapper">
+
+      <view class="section user-info">
+        <view class="user-info_pic">
+          <image class="" src="./img/QQ图片20200716111505.jpg" >
+          </image>
+        </view>
+        <view class="user-info_desc">
+          <text class="name">Alisa</text>
+          <view class="sex"><image src="./img/sexw.png"></image></view>
+        </view>
+        <view class="user-info_personality">
+          <text class="user-info_personality label1">开朗</text>
+          <text class="user-info_personality label2">自由职业</text>
+          <text class="user-info_personality label3">爱折腾</text>
+        </view>
+        <view class="user-info_details">
+          <view class="details_info">
+
+            <view class="details_info_pic">
+              <image src ="./img/地址 (2).png"></image>
+            </view>
+
+            <view class="details_info_text">
+            <text>深圳市</text>
+
+            </view>
+          </view>
+          <view class="details_info">
+            <view class="details_info_pic">
+              <image src ="./img/领带 (1).png"></image>
+            </view>
+            <view class="details_info_text">
+            <text>互联网</text>
+            </view>
+          </view>
+          <view class="details_info">
+            <view class="details_info_pic">
+              <image src ="./img/心 (2).png"></image>
+            </view>
+            <view class="details_info_text">
+            <text>角色扮演</text>
+            </view>
+          </view>
+          <view class="details_info">
+            <view class="details_info_pic">
+              <image src ="./img/微信 (2).png"></image>
+            </view>
+            <view class="details_info_text">
+            <text>luoqi741</text>
+            </view>
+          </view>
+          <view class="details_info">
+            <view class="details_info_pic">
+              <image src ="./img/电话 (2).png"></image>
+            </view>
+            <view class="details_info_text">
+               <text>15017933191</text>
+            </view>
+          </view>
+          <view class="user-info_Qr_code">
+            <image src = "./img/ewm.png"></image>
+          </view>
+          <view class="user-info_hongbaoPic">
+            <image src = "./img/envelope.png"></image>
+          </view>
+
+
+        </view>  
+      </view>
+
+      <view class="section myVisitors">
+        <view class="side">
+          <view class="myVisitors_pic">
+            <image src="./img/1.jpg"></image>
+          </view>
+          <view class="myVisitors_pic">
+            <image src="./img/2.jpg"></image>
+          </view>
+          <view class="myVisitors_pic">
+            <image src="./img/3.jpg"></image>
+          </view>
+        </view>
+
+        <view class="main">
+          <text>今天两人，累计1092人看我</text>
+        </view>
+        <view class="rightArrow">
+          <image src= "./img/右箭头.png"></image>
+        </view>
+      </view>
+         
+      <view class="section provide">
+        <view class="color" style="background-color: #48a6fd;"></view>
+        <view class="provide_title">
+          <text>提供</text>
+        </view>
+
+        <view class="provide_describe">
+          <text>软件设计、平面设计、产品设计、电商海报、商场装修、各种你可以想到的设计</text> 
+        </view>
+      </view>
+      
+      <view class="section provide">
+        <view class="color"></view>
+        <view class="provide_title">
+          <text>需求</text>
+        </view>
+
+        <view class="provide_describe">
+          <text>软件设计、平面设计、产品设计、电商海报、商场装修、各种你可以想到的设计</text> 
+        </view>
+      </view>
+      
+      <view class="pic">
+        <image src="./img/4.jpg" >
+          
+        </image>
+      </view>
+   
+
+      <view class="section provide">
+        <view class="color" style="background-color: #fb8800;"></view>
+        <view class="provide_title">
+          <text>个人品牌</text>
+        </view>
+        <view class="brand_pic">
+          <view class="pics">
+            <image src="./img/5.jpg "></image>
+          </view>
+          <view class="pics">
+            <image src="./img/6.jpg"></image>
+          </view>
+
+          <view class="pics">
+            <image src="./img/7.jpg"></image>
+          </view>
+        </view>
+      </view>
+
+      <view class="last">
+        <view class="btn lastSide">
+          <image src="./img/编辑.png"></image>
+          <text> 编辑</text>
+        </view>
+        <view class="btn lastMain">
+          <text>分享名片</text>
+        </view>
+      </view>
+
+
+      
+      
+    </view>
+  </scroll-view>
+</view>
