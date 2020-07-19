@@ -1,1 +1,117 @@
 /* pages/hongbao/hongbao.wxss */
+view,text{
+  margin: 0;
+  padding: 0;
+}
+.head{
+  position: relative;
+  background-color: #f5fafe;
+}
+
+.head-backgroundPic{
+   width: 750rpx;
+   height: 144rpx;
+}
+.head-backgroundPic image{
+  width: 100%;
+  height: 100%;
+}
+
+.user-info_pic{
+  position: absolute;
+  left: 311rpx;
+  top:65rpx;
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+.user-info_pic image{
+  width: 100%;
+  height: 100%;
+}
+.clearPosition{
+  width: 750rpx;
+  height: 65rpx;
+}
+.info{
+  text-align: center;
+  margin-bottom: 20rpx;
+  font-size: 30rpx;
+  line-height: 1;
+}
+.hongbao-text{
+  font-size: 31rpx;
+}
+.hongbao-money{
+  font-size: 50rpx;
+  font-weight: 700;
+}
+.text-style{
+  font-size: 30rpx;
+  font-weight: normal;
+}
+.hangbao-details{
+  padding: 41rpx 32rpx 32rpx 32rpx;
+}
+.hangbao-details-choose{
+  color:#48a6fd;
+  display: inline-block;
+  margin-right: 135rpx;
+  font-size: 32rpx;
+}
+.hangbao-details-choose:last-child{
+  margin-right: 0;
+}
+.section-main{
+  background-color: white;
+  padding-left: 31rpx;
+  padding-right: 31rpx;
+  padding-top: 17rpx; 
+ 
+}
+.section-title{
+  padding: 31rpx;
+  border-bottom: 1rpx solid #c2c2c2;
+}
+.section-title text{
+  color: #c2c2c2;
+  font-size: 28rpx;
+}
+.envelopeNum{
+  height: 120rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-left: 31rpx;
+  padding-right: 31rpx;
+  padding-top: 17rpx;  */
+  border-bottom: 1rpx solid #c2c2c2;
+  
+}
+
+.envelopeNum text{
+ font-size: 34rpx;
+}
+.openEnvelope{
+  flex: 1;
+  
+}
+.envelopeMoneyNum{
+ width: 60rpx;
+
+}
+.envelopeUser{
+  display: flex;
+  align-items: start;
+}
+.envelopeDate{
+  font-size: 20rpx;
+  margin-top: 16rpx;
+  margin-bottom: 15rpx;
+  color: #c2c2c2;
+}
+.envelopeDate text{ 
+  font-size: 28rpx;
+}

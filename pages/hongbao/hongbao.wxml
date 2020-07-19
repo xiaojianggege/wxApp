@@ -1,2 +1,111 @@
-<!--pages/hongbao/hongbao.wxml-->
-<text>pages/hongbao/hongbao.wxml</text>
+<!-- pages/hongbao/hongbao.wxml -->
+<view class="hongbao">
+  <scroll-view scroll-y style="width:100%">
+    <view class="head">
+
+      <view class="head-backgroundPic">
+        <!-- 存放背景图片 -->
+        <image src="./image/red-envelope.png"></image>
+      </view>
+      
+      <view class="user-info_pic">
+        <!-- 定位实现存放头像 -->
+        <image src="./image/QQ图片20200716111505.jpg"></image>
+      </view>
+      <view class="clearPosition">
+        
+      </view>
+      <view class="info">
+        
+        <view class="info username">
+          <text>Alisa</text>
+        </view>
+        
+        <view class="info hongbao-text">
+          <text>恭喜发财，大吉大利</text>
+        </view>
+        
+        <viex class="info hongbao-money">
+          <text>12.3</text>
+          <text class="text-style">元</text>
+        </viex>
+
+      </view>
+
+      <view class="hangbao-details">
+        <view class="hangbao-details-choose">
+          <text>红包记录</text>
+        </view>
+        <view class="hangbao-details-choose">
+          <text>前去提现</text>
+        </view>
+        <view class="hangbao-details-choose" style="">
+          <text>转发给好友</text>
+        </view>
+      </view>
+      
+     
+     
+    </view>
+       
+    
+
+    <view class="section">
+       <view class="section-title">
+         <text>共100个，已领取3个</text>
+       </view>
+
+       <view class="section-main">
+
+         <view class="envelopeNum">
+
+          <view class="openEnvelope">
+            <view class="envelopeUser">
+              <view>
+                <text>拆红包</text>
+              </view>
+              <view style="margin-left: 21rpx ; color:#c2c2c2">
+                <text>(浅浅的夏)</text>
+              </view>
+            </view>
+            <view class="envelopeDate">
+              <text>2018/12/20 21:43</text>
+            </view>
+          </view>
+
+          <view class="envelopeMoneyNum">
+            <text>5元</text>
+          </view>
+        </view>
+
+       </view>
+
+       
+       <view class="section-main">
+
+         <view class="envelopeNum" style="border:0">
+
+          <view class="openEnvelope">
+            <view class="envelopeUser">
+              <view>
+                <text>拆红包</text>
+              </view>
+              <view style="margin-left: 21rpx ; color:#c2c2c2">
+                <text>(浅浅的夏)</text>
+              </view>
+            </view>
+            <view class="envelopeDate">
+              <text>2018/12/20 21:43</text>
+            </view>
+          </view>
+
+          <view class="envelopeMoneyNum">
+            <text>5元</text>
+          </view>
+        </view>
+
+       </view>
+    </view>
+    
+  </scroll-view>
+</view>
